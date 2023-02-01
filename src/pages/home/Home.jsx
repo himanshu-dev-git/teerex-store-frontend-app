@@ -6,7 +6,6 @@ import SearchBar from '../../components/common/SearchBar';
 // import {colorList, genderList, priceRangeList, typeList} from '../../constants/constants';
 import './styles.css';
 import EmptyView from '../../components/common/EmptyView';
-import { useCallback } from 'react';
 import axios from 'axios';
 import {useWindowWidth} from "../../utils/CustomHooks"
 import { applyFilters } from '../../utils/helper';

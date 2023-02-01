@@ -1,9 +1,7 @@
-import {Box, Stack, Button} from "@mui/material";
 import React from "react";
 import "./Header.css";
-import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useCartContext } from "../../utils/CartContext";
 
 const Header = () => {

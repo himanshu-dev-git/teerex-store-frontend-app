@@ -1,11 +1,3 @@
-import {
-    Button,
-    Card,
-    CardActions,
-    CardContent,
-    CardMedia,
-    Box
-} from "@mui/material";
 import { useCartContext } from "../../utils/CartContext";
 import ControlButton from "../common/ControlButton";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";

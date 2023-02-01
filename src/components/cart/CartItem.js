@@ -1,5 +1,4 @@
-import Header from "../common/Header";
-import React, { useEffect } from "react";
+import React from "react";
 import { useCartContext } from '../../utils/CartContext';
 import ControlButton from "../common/ControlButton";
 import './CartItem.css'

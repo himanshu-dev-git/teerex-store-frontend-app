@@ -1,5 +1,3 @@
-
-import CheckboxProton from '../common/CheckboxProton';
 import './FilterPanel.css'
 import { filterData } from '../../constants/constants';
 
