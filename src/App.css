@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,*::after,*::before {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+:root {
+  --grey1: #d3d3d3;
+  --grey2:#778899;
+  --grey3:#696969;
+  --head: #2C2C2C;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: 'Raleway', sans-serif;
+  -ms-text-overflow: none; /* Edge */
+  scrollbar-width: none;  /* Firebox */
+  background-color: var(--grey1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* chrome, safari and Opera */
+::-webkit-scrollbar{
+  display: none;
+}
+
+.header {
+  background-color: var(--head);
+  color: black;
+}
+
+.qty-badge, .add-to-cart-btn, .apply-filters-mobile, .qty-control-button button, .clear-filters-mobile-btn, .clear-filters-btn {
+  background-color: var(--grey3);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.filter-btn-mobile {
+  filter: invert(31%) sepia(24%) saturate(398%) hue-rotate(131deg) brightness(92%) contrast(94%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-card, .filter-panel {
+  background-color: white;
 }
