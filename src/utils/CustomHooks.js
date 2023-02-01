@@ -21,7 +21,7 @@ export const useWindowWidth = () => {
         window.addEventListener('resize', debounceResizeHandler)
 
         return () => window.removeEventListener('resize', debounceResizeHandler);
-    }, [])
+    }, [timerId])
 
     return width;
     
